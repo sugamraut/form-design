@@ -5,7 +5,7 @@ import top from './log in/side.png';
 import logoImage from './log in/top.png';
 import nepal from './log in/nepal.webp'
 
-function App() {
+function Login() {
   return (
     <div className="login-container">
       <div className="login-box">
@@ -28,7 +28,7 @@ function App() {
             <label htmlFor="phone"style={{ color: 'black',display:"flex" }}>Phone Number <span className="required">*</span></label>
             <div className="input-with-prefix">
                 <img src={nepal} alt="" className='flag-icon' />
-              <span className="prefix">+971</span>
+              <span className="prefix">+977</span>
              
               <input type="tel" id="phone" placeholder="(000) 000-0000" />
             </div>
@@ -50,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login

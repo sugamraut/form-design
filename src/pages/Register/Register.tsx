@@ -29,15 +29,16 @@ function Register() {
               <input type="tel" id="phone" placeholder="(000) 000-0000" />
             </div>
                     <label htmlFor='password' style={{color:"black",display:"flex"}}>password</label>
-                    <input type="password" name="" id="password" placeholder='enter the password there'/>
+                    <input type="password" name="" id="password" placeholder='Enter the password there'/>
                     <label htmlFor='confirm-password' style={{color:"black",display:"flex"}}>Confirm Password</label>
-                    <input type='password' id='confirm-password' placeholder='enater the confirm password'/> 
-                    <div className="form-extras">
-              <label><input type="checkbox" style={{ color: 'black' }}/> Remember me</label>
+                    <input type='password' id='confirm-password' placeholder='Enter the confirm password'/> 
+                    {/* <div className="form-extras"> */}
+              {/* <label><input type="checkbox" style={{ color: 'black' }}/> Remember me</label>
               <a href="#">Forgot Password?</a>
-            </div>
+            </div> */}
 
             <button type="submit">Register  into your account</button>
+             <p className="register">Alerady have an account? <a href="/login">Go back to sign in!</a></p>
                 </form>
 
             </div>

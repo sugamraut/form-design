@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 import Login from './pages/Login'
 import Register from './pages/Register/Register'
-import Forget from './pages/forget-password/forget'
+import Forget from './pages/forget-password/Forget'
 
 function App() {
   const [count, setCount] = useState(0)
