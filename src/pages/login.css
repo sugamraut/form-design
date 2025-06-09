@@ -169,3 +169,7 @@ button:hover {
   left: 6px;
   transform: translateY(-50%);
 }
+.highlight{
+  padding-right: 10px;
+
+}
