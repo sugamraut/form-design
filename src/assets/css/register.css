@@ -6,14 +6,13 @@ body{
     justify-content: center;
     
 }
-.Register-continer{
+.register-continer{
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
     padding-bottom: 0px;
     overflow-x: hidden;
 }
-.Register-box{
+.register-box{
     display: flex;
     background-color: #fff;
     border-radius: 12px;
@@ -22,9 +21,8 @@ body{
 }
 .image-section{
     flex:1;
-    padding-left:40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    height: 90vh;
+    padding: 30px;
 }
 .image-section img{
     width :100%;
@@ -34,12 +32,14 @@ body{
 }
 .form-sec{
     flex: 1;
-    justify-content: center;
-    align-items: center;
+    background-color: #fff;
     padding-top: 55px;
     padding-bottom: 55px;
     padding-left: 54px;
     padding-right: 54px;
+    justify-content: flex-start;
+    position: relative;
+    top: 80px;
 }
 .Register-form{
     width: 100%;
@@ -54,15 +54,15 @@ body{
     width: 48px;
     height: 48px;
 }
-.Register-form h2{
+.register-form h2{
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
-.Register-form .highlig{
+.register-form .highlig{
     color: #0046ff;
 }
 
-.Register-form p{
+.register-form p{
     margin-bottom: 1.5rem;
     color: #666;
 }
@@ -91,7 +91,7 @@ body{
   border-radius: 6px;
   font-size: 0.95rem;
   padding-left: 80px;
-  width: 100%;
+  width: 130%;
 }
 input[type="password"] {
   width: 100%;
@@ -144,4 +144,13 @@ button:hover {
 }
 .highlig{
    padding-right: 10px;
+}
+input[type="password"]:focus{
+  border: 1px solid #000; /* Apply border on click/focus */
+      outline: none;
+
+}
+input[type="tel"]:focus{
+  border: 1px solid #000;
+  outline: none;
 }

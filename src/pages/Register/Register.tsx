@@ -6,14 +6,14 @@ import nepal from "../../assets/images/nepal.webp";
 function Register() {
   return (
     <>
-      <div className="Register-continer">
-        <div className="Register-box">
+      <div className="register-continer">
+        <div className="register-box">
           <div className="image-section">
             <img src={side} style={{ borderRadius: "20px" }} alt="" />
           </div>
           {/* right side section */}
           <div className="form-sec">
-            <form className="Register-form">
+            <form className="register-form">
               <div className="logo-cont">
                 <img
                   src={top}
@@ -26,7 +26,7 @@ function Register() {
                 {" "}
                 <span className="highlig">Merchant</span> Registration
               </h2>
-              <p>
+              <p style={{display:"flex"}}>
                 Enjoy all the feature that make it easy for you to manage your
                 finances
               </p>

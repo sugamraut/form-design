@@ -23,7 +23,7 @@ function Login() {
             <h2 style={{ display: "flex" }}>
               <span className="highlight"> Welcome </span> Back!
             </h2>
-            <p>
+            <p style={{ display:"flex"}}>
               Enjoy all the features that make it easy for you to manage your
               finances
             </p>
@@ -31,7 +31,7 @@ function Login() {
             <label htmlFor="phone" style={{ color: "black", display: "flex" }}>
               Phone Number <span className="required">*</span>
             </label>
-            <div className="input-with-prefix">
+            <div className="input-with-prefi">
               <img src={nepal} alt="" className="flag-icon" />
               <span className="prefix">+977</span>
 

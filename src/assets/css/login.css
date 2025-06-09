@@ -5,7 +5,6 @@ body {
 }
 
 .login-container {
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -23,8 +22,8 @@ body {
 .image-section {
   flex: 1;
   padding-left: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
 }
 .image-section img {
@@ -35,21 +34,20 @@ body {
 
 .form-section {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
   background-color: #fff;
-      padding-top: 55px;
-    padding-bottom: 55px;
-    padding-right: 54px;
-    padding-left: 54px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-right: 54px;
+  padding-left: 54px;
+  justify-content: flex-start;
+  position: relative;
+  top: 100px;
 }
 
 
 .login-form {
   width: 100%;
-  max-width: 380px;
+  max-width: 860px;
   text-align: center;
 }
 
@@ -80,12 +78,12 @@ body {
   font-weight: bold;
 }
 
-.input-with-prefix {
+.input-with-prefi {
   position: relative;
   margin-bottom: 1rem;
 }
 
-.input-with-prefix .prefix {
+.input-with-prefi .prefix {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -95,8 +93,8 @@ body {
   margin-left: 30px;
 }
 
-.input-with-prefix input {
-  width: 100%;
+.input-with-prefi input {
+  width: 130%;
   padding: 0.5rem 0.5rem 0.5rem 48px;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -166,5 +164,14 @@ button:hover {
 }
 .highlight{
   padding-right: 10px;
+
+}
+input[type="tel"]:focus{
+  border: 1px solid #000;
+  outline: none;
+}
+input[type="password"]:focus{
+  border: 1px solid #000; /* Apply border on click/focus */
+      outline: none;
 
 }
