@@ -1,7 +1,6 @@
-import React from "react";
-import side from "../log in/side.png";
-import top from "../log in/top.png";
-import "../forget-password/forget.css";
+import side from "../../assets/images/side.png";
+import top from "../../assets/images/top.png";
+import "../../assets/CSS/forget.css";
 function Forget() {
   return (
     <>
@@ -40,7 +39,7 @@ function Forget() {
                   Phone number
                 </label>
                 <button>Next</button>
-                <a href="/login">← Back to login </a>
+                <a href="/">← Back to login </a>
               </div>
             </form>
           </div>
