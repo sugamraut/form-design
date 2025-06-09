@@ -30,7 +30,7 @@ function Forget() {
                   Selected the contact details you prefer for password recovery
                 </p>
                 <label className="option">
-                    <input type="radio" name="recovery" value="email" checked />
+                    <input type="radio" name="recovery" value="email"/>
                   Email
                 </label>
 

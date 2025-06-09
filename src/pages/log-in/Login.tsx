@@ -1,4 +1,4 @@
-import "../../assets/CSS/Login.css";
+import "../../assets/CSS/login.css";
 import top from "../../assets/images/side.png";
 import logoImage from "../../assets/images/top.png";
 import nepal from "../../assets/images/nepal.webp";
@@ -23,21 +23,23 @@ function Login() {
             <h2 style={{ display: "flex" }}>
               <span className="highlight"> Welcome </span> Back!
             </h2>
-            <p style={{ display:"flex"}}>
+            <p style={{ display: "flex" }}>
               Enjoy all the features that make it easy for you to manage your
               finances
             </p>
 
-            <label htmlFor="phone" style={{ color: "black", display: "flex" }}>
+            <label htmlFor="phone" style={{ display: "flex" }}>
               Phone Number <span className="required">*</span>
             </label>
-            <div className="input-with-prefi">
-              <img src={nepal} alt="" className="flag-icon" />
-              <span className="prefix">+977</span>
-
-              <input type="tel" id="phone" placeholder="(000) 000-0000" />
+            <div className="phone-wrapper">
+              <div className="flag-area">
+                <img src={nepal} alt="Nepal Flag" />
+              </div>
+              <div className="input-area">
+                <span className="fixed-code">+977</span>
+                <input type="text" id="phone" placeholder="(000) 000-0000" />
+              </div>
             </div>
-
             <label
               htmlFor="password"
               style={{ color: "black", display: "flex" }}

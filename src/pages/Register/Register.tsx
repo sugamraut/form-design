@@ -70,7 +70,7 @@ function Register() {
               <button type="submit">Register into your account</button>
               <p className="register">
                 Alerady have an account?{" "}
-                <a href="/login">Go back to sign in!</a>
+                <a href="/">Go back to sign in!</a>
               </p>
             </form>
           </div>
