@@ -3,7 +3,7 @@ import top from "../../assets/images/side.png";
 import logoImage from "../../assets/images/top.png";
 import nepal from "../../assets/images/nepal.webp";
 
-function Login() {
+function Login()  {
   return (
     <div className="login-container">
       <div className="login-box">
