@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Login from './pages/log-in/Login'
-import Register from './pages/register/Register'
+import Register from './pages/register/register'
 import Forget from './pages/forget-password/Forget'
 
 function App() {
