@@ -6,16 +6,12 @@ import nepal from "../../assets/images/nepal.webp";
 function Login()  {
   return (
     <div className="login-container">
-      <div className="login-box">
-        {/* Left Image Section */}
+      <div className= "login-box">
         <div className="image-section">
           <img src={top} style={{ borderRadius: "20px" }} alt="" />
-        </div>
-
-        {/* Right Form Section */}
+        </div> 
         <div className="form-section">
           <form className="login-form">
-            {/* Logo at top */}
             <div className="logo-container">
               <img src={logoImage} alt="Logo" className="form-logo" />
             </div>
