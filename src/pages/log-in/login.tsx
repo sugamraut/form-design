@@ -9,7 +9,7 @@ function Login()  {
       <div className= "login-box">
         <div className="image-section">
           <img src={top} style={{ borderRadius: "20px" }} alt="" />
-        </div> 
+        </div>
         <div className="form-section">
           <form className="login-form">
             <div className="logo-container">
